@@ -9,4 +9,5 @@ RUN git clone --depth 1 https://github.com/olofk/fusesoc
 WORKDIR /fusesoc
 
 RUN pip install -e .
+RUN /usr/bin/fusesoc init -y
 
